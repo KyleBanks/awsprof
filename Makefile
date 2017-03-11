@@ -1,4 +1,4 @@
-VERSION = 0.1.0
+VERSION = 1.0.0
 
 RELEASE_PKG = ./cmd/awsprof
 RELEASE_PLATFORMS = darwin/386 darwin/amd64 linux/386 linux/amd64 linux/arm
