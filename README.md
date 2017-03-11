@@ -17,7 +17,7 @@ $ go get github.com/KyleBanks/awsprof/cmd/awsprof
 
 ## Usage
 
-`awsprof` can be run with either no arguments to view the names of all configured profiles. If one of the profiles matches the current `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` environment variables, it will be marked as the active profile with an asterisk:
+`awsprof` can be run with either no arguments to view the names of all configured profiles, or with a profile name to make the swap. If one of the profiles matches the current `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` environment variables, it will be marked as the active profile with an asterisk:
 
 ```sh
 $ awsprof
