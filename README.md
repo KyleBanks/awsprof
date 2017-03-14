@@ -2,8 +2,8 @@
 
 [![GoDoc](https://godoc.org/github.com/KyleBanks/awsprof?status.svg)](https://godoc.org/github.com/KyleBanks/awsprof)&nbsp; 
 [![Build Status](https://travis-ci.org/KyleBanks/awsprof.svg?branch=master)](https://travis-ci.org/KyleBanks/awsprof)&nbsp;
-[![Go Report Card](https://goreportcard.com/badge/github.com/KyleBanks/awsprof)](https://goreportcard.com/report/github.com/KyleBanks/awsprof)
-
+[![Go Report Card](https://goreportcard.com/badge/github.com/KyleBanks/awsprof)](https://goreportcard.com/report/github.com/KyleBanks/awsprof)&nbsp;
+[![Coverage Status](https://coveralls.io/repos/github/KyleBanks/awsprof/badge.svg?branch=master)](https://coveralls.io/github/KyleBanks/awsprof?branch=master)
 
 `awsprof` is a little tool to quickly switch your AWS access and secret key environment variables using profile names. Many AWS tools and APIs support the `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` environment variables, but they don't support the profile system - `awsprof` aims to help resolve that.
 
